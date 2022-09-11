@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="aim.css">
+	<title>Aim Trainer</title>
+</head>
+<body>
+	<div id="contentContainer">
+		<canvas id="board" width="500" height="500"></canvas>
+	</div>
+	<div id="scoresTitles">
+		<p class="titles">Hits</p>
+		<p class="titles">Misses</p>
+		<p class="titles">Total</p>
+	</div>
+	<div id="scoresContainer">
+		<div class='numberDisplays' id='shotsHit'>0</div>
+		<div class="numberDisplays" id="shotsMissed">0</div>
+		<div class='numberDisplays' id='scoreTotal'>0</div>
+	</div>	
+	<div id="btnBox">
+		<button class="btn" id="startBtn">Start</button>
+		<button class="btn" id="resetBtn">Reset</button>
+	</div>
+	
+	<script type="text/javascript" src="aim.js"></script>
+</body>
